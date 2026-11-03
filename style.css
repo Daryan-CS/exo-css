@@ -1,0 +1,76 @@
+* {
+     box-sizing: border-box; 
+} 
+body {
+  background: #3F5EFB;
+background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(72, 126, 222, 1) 2%, rgba(81, 156, 194, 1) 4%, rgba(91, 192, 161, 1) 7%, rgba(100, 222, 133, 1) 9%, rgba(110, 255, 102, 1) 11%, rgba(156, 160, 96, 1) 15%, rgba(196, 76, 90, 1) 18%, rgba(184, 22, 224, 1) 20%, rgba(0, 55, 255, 1) 22%, rgba(253, 89, 46, 1) 24%, rgba(252, 156, 81, 1) 27%, rgba(250, 223, 115, 1) 29%, rgba(64, 241, 247, 1) 31%, rgba(203, 109, 86, 1) 33%, rgba(252, 255, 54, 1) 36%, rgba(205, 242, 126, 1) 39%, rgba(242, 102, 160, 1) 41%, rgba(102, 233, 242, 1) 43%, rgba(0, 0, 0, 1) 46%, rgba(105, 245, 98, 1) 49%, rgba(255, 255, 255, 1) 51%, rgba(242, 236, 63, 1) 55%, rgba(255, 81, 0, 1) 57%, rgba(255, 133, 249, 1) 60%, rgba(248, 142, 224, 1) 62%, rgba(237, 155, 187, 1) 66%, rgba(224, 171, 143, 1) 69%, rgba(216, 180, 116, 1) 72%, rgba(205, 194, 76, 1) 75%, rgba(61, 49, 0, 1) 77%, rgba(255, 149, 20, 1) 80%, rgba(148, 124, 99, 1) 82%, rgba(163, 116, 100, 1) 85%, rgba(255, 247, 0, 1) 88%, rgba(35, 119, 254, 1) 92%, rgba(203, 103, 205, 1) 95%, rgba(145, 228, 86, 1) 97%, rgba(247, 0, 0, 1) 100%);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(164, 241, 39);
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 35px dotted #93ff4a
+
+
+}
+
+p{
+    line-height: 1.6
+}
+
+#intro {
+    font-style: italic;
+}
+
+.important {
+    font-weight: bold;
+}
+
+.rouge {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border: 3px solid rgba(0, 0, 0, 1);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 156px;
+}
+
+.bleu {
+     background-color: rgb(0, 204, 255);
+      height: 200px;
+    width: 200px;
+    border: 3px solid rgba(0, 0, 0, 1);
+    padding: 50px;
+    margin-left: 20px;
+}
+
+.carte {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    margin: 16px 0;
+    background-color:#fafafa
+    max-width: 400px
+    
+}
+
+ul{
+    display:flex;
+    list-style: none;
+    gap: 24px;
+    justify-content: center;
+}
+
+a{
+    text-decoration:none ;
+    color: rgb(253, 0, 0);
+}
+
+a:hover {
+    color:green;
+    border-bottom: 1px solid #93ff4a
+}
+
